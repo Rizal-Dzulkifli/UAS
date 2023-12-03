@@ -19,7 +19,6 @@ class RekeningKoran extends Akun {
         System.out.println("Transaksi toko berhasil.");
     }
 
-    // Override toString method to include transaction history
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder(super.toString() + "\nTransaksi Toko:\n");
